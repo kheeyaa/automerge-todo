@@ -23,7 +23,6 @@ async function loadFromRemote(docId) {
   doc = newDoc;
   render(newDoc);
 }
-
 loadFromRemote(docId);
 
 /** 서버에 binary 저장 */
